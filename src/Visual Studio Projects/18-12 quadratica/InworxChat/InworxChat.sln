@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inworx.Chat.ServerUI", "Inworx.Chat.ServerUI\Inworx.Chat.ServerUI.csproj", "{82372FC8-70DF-4010-8E39-CBBEB80E0114}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inworx.Chat.Server", "Inworx.Chat.Server\Inworx.Chat.Server.csproj", "{E756DDB1-83FB-407F-AACB-6627D85FB06D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{82372FC8-70DF-4010-8E39-CBBEB80E0114}.Debug.ActiveCfg = Debug|.NET
+		{82372FC8-70DF-4010-8E39-CBBEB80E0114}.Debug.Build.0 = Debug|.NET
+		{82372FC8-70DF-4010-8E39-CBBEB80E0114}.Release.ActiveCfg = Release|.NET
+		{82372FC8-70DF-4010-8E39-CBBEB80E0114}.Release.Build.0 = Release|.NET
+		{E756DDB1-83FB-407F-AACB-6627D85FB06D}.Debug.ActiveCfg = Debug|.NET
+		{E756DDB1-83FB-407F-AACB-6627D85FB06D}.Debug.Build.0 = Debug|.NET
+		{E756DDB1-83FB-407F-AACB-6627D85FB06D}.Release.ActiveCfg = Release|.NET
+		{E756DDB1-83FB-407F-AACB-6627D85FB06D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

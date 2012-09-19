@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="TransferirFondos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NroCuentaOrigen" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NroCuentaDestino" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Monto" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferirFondosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TransferirFondosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Depositar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NroCuenta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Monto" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DepositarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DepositarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Extraer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NroCuenta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Monto" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtraerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExtraerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerSaldo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NroCuenta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerSaldoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerSaldoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TransferirFondosSoapIn">
+    <wsdl:part name="parameters" element="tns:TransferirFondos" />
+  </wsdl:message>
+  <wsdl:message name="TransferirFondosSoapOut">
+    <wsdl:part name="parameters" element="tns:TransferirFondosResponse" />
+  </wsdl:message>
+  <wsdl:message name="DepositarSoapIn">
+    <wsdl:part name="parameters" element="tns:Depositar" />
+  </wsdl:message>
+  <wsdl:message name="DepositarSoapOut">
+    <wsdl:part name="parameters" element="tns:DepositarResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtraerSoapIn">
+    <wsdl:part name="parameters" element="tns:Extraer" />
+  </wsdl:message>
+  <wsdl:message name="ExtraerSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtraerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerSaldoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerSaldo" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerSaldoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerSaldoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BankServiceSoap">
+    <wsdl:operation name="TransferirFondos">
+      <wsdl:input message="tns:TransferirFondosSoapIn" />
+      <wsdl:output message="tns:TransferirFondosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Depositar">
+      <wsdl:input message="tns:DepositarSoapIn" />
+      <wsdl:output message="tns:DepositarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Extraer">
+      <wsdl:input message="tns:ExtraerSoapIn" />
+      <wsdl:output message="tns:ExtraerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerSaldo">
+      <wsdl:input message="tns:ObtenerSaldoSoapIn" />
+      <wsdl:output message="tns:ObtenerSaldoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BankServiceSoap" type="tns:BankServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="TransferirFondos">
+      <soap:operation soapAction="http://tempuri.org/TransferirFondos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Depositar">
+      <soap:operation soapAction="http://tempuri.org/Depositar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Extraer">
+      <soap:operation soapAction="http://tempuri.org/Extraer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerSaldo">
+      <soap:operation soapAction="http://tempuri.org/ObtenerSaldo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BankService">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="BankServiceSoap" binding="tns:BankServiceSoap">
+      <soap:address location="http://localhost/BankService/BankService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

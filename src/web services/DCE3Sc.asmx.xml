@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:i0="http://www.tempuri.org/BolsaSC_Info.xsd" xmlns:tns="http://tempuri.org/BolsaDCE/DCE3Sc" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/BolsaDCE/DCE3Sc" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://www.tempuri.org/BolsaSC_Info.xsd" location="http://www.mslatam.com/latam/msdn/comunidad/dce/bolsa/DCE3Sc.asmx?schema=BolsaSC_Info" />
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/BolsaDCE/DCE3Sc">
+      <s:import namespace="http://www.tempuri.org/BolsaSC_Info.xsd" />
+      <s:element name="EsUsuarioValido">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Clave" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EsUsuarioValidoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EsUsuarioValidoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCantidadEstrellas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCantidadEstrellasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCantidadEstrellasResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPerfilUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPerfilUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPerfilUsuarioResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://www.tempuri.org/BolsaSC_Info.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EsUsuarioValidoSoapIn">
+    <wsdl:part name="parameters" element="tns:EsUsuarioValido" />
+  </wsdl:message>
+  <wsdl:message name="EsUsuarioValidoSoapOut">
+    <wsdl:part name="parameters" element="tns:EsUsuarioValidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCantidadEstrellasSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCantidadEstrellas" />
+  </wsdl:message>
+  <wsdl:message name="GetCantidadEstrellasSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCantidadEstrellasResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPerfilUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPerfilUsuario" />
+  </wsdl:message>
+  <wsdl:message name="GetPerfilUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPerfilUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DCE3ScSoap">
+    <wsdl:operation name="EsUsuarioValido">
+      <wsdl:input message="tns:EsUsuarioValidoSoapIn" />
+      <wsdl:output message="tns:EsUsuarioValidoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCantidadEstrellas">
+      <wsdl:input message="tns:GetCantidadEstrellasSoapIn" />
+      <wsdl:output message="tns:GetCantidadEstrellasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPerfilUsuario">
+      <wsdl:input message="tns:GetPerfilUsuarioSoapIn" />
+      <wsdl:output message="tns:GetPerfilUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DCE3ScSoap" type="tns:DCE3ScSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="EsUsuarioValido">
+      <soap:operation soapAction="http://tempuri.org/BolsaDCE/DCE3Sc/EsUsuarioValido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCantidadEstrellas">
+      <soap:operation soapAction="http://tempuri.org/BolsaDCE/DCE3Sc/GetCantidadEstrellas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPerfilUsuario">
+      <soap:operation soapAction="http://tempuri.org/BolsaDCE/DCE3Sc/GetPerfilUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DCE3Sc">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="DCE3ScSoap" binding="tns:DCE3ScSoap">
+      <soap:address location="http://www.mslatam.com/latam/msdn/comunidad/dce/bolsa/DCE3Sc.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

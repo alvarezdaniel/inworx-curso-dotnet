@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficadorLib", "GraficadorLib\GraficadorLib.csproj", "{66621DC1-4485-4E24-9F3E-85EED0583FB3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graficador", "Graficador\Graficador.csproj", "{00505DDB-EB22-4D66-80A4-46D30FE188FC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{66621DC1-4485-4E24-9F3E-85EED0583FB3}.Debug.ActiveCfg = Debug|.NET
+		{66621DC1-4485-4E24-9F3E-85EED0583FB3}.Debug.Build.0 = Debug|.NET
+		{66621DC1-4485-4E24-9F3E-85EED0583FB3}.Release.ActiveCfg = Release|.NET
+		{66621DC1-4485-4E24-9F3E-85EED0583FB3}.Release.Build.0 = Release|.NET
+		{00505DDB-EB22-4D66-80A4-46D30FE188FC}.Debug.ActiveCfg = Debug|.NET
+		{00505DDB-EB22-4D66-80A4-46D30FE188FC}.Debug.Build.0 = Debug|.NET
+		{00505DDB-EB22-4D66-80A4-46D30FE188FC}.Release.ActiveCfg = Release|.NET
+		{00505DDB-EB22-4D66-80A4-46D30FE188FC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

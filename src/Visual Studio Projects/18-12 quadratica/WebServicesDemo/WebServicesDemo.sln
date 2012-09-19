@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlRequest", "UrlRequest\UrlRequest.csproj", "{A10F5A98-32A0-4A31-B51E-0FF0011167F1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPDemo", "SOAPDemo\SOAPDemo.csproj", "{9AF9DD39-FA59-4AB7-8D32-E707AEFB2E4A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InworxWSDemo", "http://localhost/InworxWSDemo/InworxWSDemo.csproj", "{51FBFDF2-DBB4-4DF9-B81B-85B20502AC65}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A10F5A98-32A0-4A31-B51E-0FF0011167F1}.Debug.ActiveCfg = Debug|.NET
+		{A10F5A98-32A0-4A31-B51E-0FF0011167F1}.Debug.Build.0 = Debug|.NET
+		{A10F5A98-32A0-4A31-B51E-0FF0011167F1}.Release.ActiveCfg = Release|.NET
+		{A10F5A98-32A0-4A31-B51E-0FF0011167F1}.Release.Build.0 = Release|.NET
+		{9AF9DD39-FA59-4AB7-8D32-E707AEFB2E4A}.Debug.ActiveCfg = Debug|.NET
+		{9AF9DD39-FA59-4AB7-8D32-E707AEFB2E4A}.Debug.Build.0 = Debug|.NET
+		{9AF9DD39-FA59-4AB7-8D32-E707AEFB2E4A}.Release.ActiveCfg = Release|.NET
+		{9AF9DD39-FA59-4AB7-8D32-E707AEFB2E4A}.Release.Build.0 = Release|.NET
+		{51FBFDF2-DBB4-4DF9-B81B-85B20502AC65}.Debug.ActiveCfg = Debug|.NET
+		{51FBFDF2-DBB4-4DF9-B81B-85B20502AC65}.Debug.Build.0 = Debug|.NET
+		{51FBFDF2-DBB4-4DF9-B81B-85B20502AC65}.Release.ActiveCfg = Release|.NET
+		{51FBFDF2-DBB4-4DF9-B81B-85B20502AC65}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

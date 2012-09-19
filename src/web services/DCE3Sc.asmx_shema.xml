@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:mstns="http://www.tempuri.org/BolsaSC_Info.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="http://www.tempuri.org/BolsaSC_Info.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.tempuri.org/BolsaSC_Info.xsd" id="BolsaSC_Info" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:Locale="es-AR" name="BolsaSC_Info">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="CategApp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="AppCode" type="xs:short" />
+              <xs:element minOccurs="0" name="AppName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AppOtras">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DevApplications" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Lenguajes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="Langcode" type="xs:int" />
+              <xs:element minOccurs="0" name="LangName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LenguajesOtros">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Languages" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Categorias">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="CategoryID" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CategoriasOtras">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DevCategories" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Usuario">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Nombre" type="xs:string" />
+              <xs:element minOccurs="0" name="Calle" type="xs:string" />
+              <xs:element minOccurs="0" name="Ciudad" type="xs:string" />
+              <xs:element minOccurs="0" name="Provincia" type="xs:string" />
+              <xs:element minOccurs="0" name="CodPais" type="xs:string" />
+              <xs:element minOccurs="0" name="Pais" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

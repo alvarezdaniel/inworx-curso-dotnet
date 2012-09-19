@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCachingDataDemo", "http://localhost/WebCachingDataDemo/WebCachingDataDemo.csproj", "{74B07737-478F-48C4-B581-619DCEC4C897}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{74B07737-478F-48C4-B581-619DCEC4C897}.Debug.ActiveCfg = Debug|.NET
+		{74B07737-478F-48C4-B581-619DCEC4C897}.Debug.Build.0 = Debug|.NET
+		{74B07737-478F-48C4-B581-619DCEC4C897}.Release.ActiveCfg = Release|.NET
+		{74B07737-478F-48C4-B581-619DCEC4C897}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeatroLib", "TeatroLib\TeatroLib.csproj", "{B7D69E5D-AC90-41B4-9027-0537D07E563B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas", "Reservas\Reservas.csproj", "{67D97B21-FE2B-42BC-9A62-CE664E2598CA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B7D69E5D-AC90-41B4-9027-0537D07E563B}.Debug.ActiveCfg = Debug|.NET
+		{B7D69E5D-AC90-41B4-9027-0537D07E563B}.Debug.Build.0 = Debug|.NET
+		{B7D69E5D-AC90-41B4-9027-0537D07E563B}.Release.ActiveCfg = Release|.NET
+		{B7D69E5D-AC90-41B4-9027-0537D07E563B}.Release.Build.0 = Release|.NET
+		{67D97B21-FE2B-42BC-9A62-CE664E2598CA}.Debug.ActiveCfg = Debug|.NET
+		{67D97B21-FE2B-42BC-9A62-CE664E2598CA}.Debug.Build.0 = Debug|.NET
+		{67D97B21-FE2B-42BC-9A62-CE664E2598CA}.Release.ActiveCfg = Release|.NET
+		{67D97B21-FE2B-42BC-9A62-CE664E2598CA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

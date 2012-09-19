@@ -1,0 +1,26 @@
+<xsd:schema id="AccountDataSet" targetNamespace="http://www.tempuri.org/AccountDataSet.xsd" xmlns="http://www.tempuri.org/AccountDataSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xsd:element name="AccountDataSet" msdata:IsDataSet="true">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="_GetAccount">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="AccountID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+							<xsd:element name="CustomerID" type="xsd:int" />
+							<xsd:element name="Description" type="xsd:string" />
+							<xsd:element name="Balance" type="xsd:decimal" />
+							<xsd:element name="LastTransactionDate" type="xsd:dateTime" minOccurs="0" />
+							<xsd:element name="Type" type="xsd:string" />
+							<xsd:element name="InterestRate" type="xsd:decimal" minOccurs="0" />
+							<xsd:element name="MinimumBalance" type="xsd:decimal" minOccurs="0" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+		<xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//_GetAccount" />
+			<xsd:field xpath="AccountID" />
+		</xsd:unique>
+	</xsd:element>
+</xsd:schema>

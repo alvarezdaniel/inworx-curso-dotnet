@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWindowsApplication", "MyFirstWindowsApplication\MyFirstWindowsApplication.csproj", "{248F3700-8EA1-45D8-8D7E-C12191AFC83B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{3B563449-3AC8-4A29-B02E-A4DF26762F3F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaforoLib", "SemaforoLib\SemaforoLib.csproj", "{14F22EA9-C13B-4C82-AB3E-50B6E090ACB8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{248F3700-8EA1-45D8-8D7E-C12191AFC83B}.Debug.ActiveCfg = Debug|.NET
+		{248F3700-8EA1-45D8-8D7E-C12191AFC83B}.Debug.Build.0 = Debug|.NET
+		{248F3700-8EA1-45D8-8D7E-C12191AFC83B}.Release.ActiveCfg = Release|.NET
+		{248F3700-8EA1-45D8-8D7E-C12191AFC83B}.Release.Build.0 = Release|.NET
+		{3B563449-3AC8-4A29-B02E-A4DF26762F3F}.Debug.ActiveCfg = Debug
+		{3B563449-3AC8-4A29-B02E-A4DF26762F3F}.Release.ActiveCfg = Release
+		{14F22EA9-C13B-4C82-AB3E-50B6E090ACB8}.Debug.ActiveCfg = Debug|.NET
+		{14F22EA9-C13B-4C82-AB3E-50B6E090ACB8}.Debug.Build.0 = Debug|.NET
+		{14F22EA9-C13B-4C82-AB3E-50B6E090ACB8}.Release.ActiveCfg = Release|.NET
+		{14F22EA9-C13B-4C82-AB3E-50B6E090ACB8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

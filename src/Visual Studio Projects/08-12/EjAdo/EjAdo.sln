@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAdoConsola", "UIAdoConsola\UIAdoConsola.csproj", "{DE92871A-3261-41C9-B05D-1D06394E56F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DE92871A-3261-41C9-B05D-1D06394E56F9}.Debug.ActiveCfg = Debug|.NET
+		{DE92871A-3261-41C9-B05D-1D06394E56F9}.Debug.Build.0 = Debug|.NET
+		{DE92871A-3261-41C9-B05D-1D06394E56F9}.Release.ActiveCfg = Release|.NET
+		{DE92871A-3261-41C9-B05D-1D06394E56F9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

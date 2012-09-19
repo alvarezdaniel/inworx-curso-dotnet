@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApp", "WindowsApp\WindowsApp.csproj", "{16A19AE7-D623-4777-9021-2983B0DD8DE2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafico", "Grafico\Grafico.csproj", "{EF8E291B-E2E1-4C3A-9F1F-5C50D7D2441B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaforo", "Semaforo\Semaforo.csproj", "{444B75A9-A2D1-4C5F-BF35-59F219FFD95A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{16A19AE7-D623-4777-9021-2983B0DD8DE2}.Debug.ActiveCfg = Debug|.NET
+		{16A19AE7-D623-4777-9021-2983B0DD8DE2}.Debug.Build.0 = Debug|.NET
+		{16A19AE7-D623-4777-9021-2983B0DD8DE2}.Release.ActiveCfg = Release|.NET
+		{16A19AE7-D623-4777-9021-2983B0DD8DE2}.Release.Build.0 = Release|.NET
+		{EF8E291B-E2E1-4C3A-9F1F-5C50D7D2441B}.Debug.ActiveCfg = Debug|.NET
+		{EF8E291B-E2E1-4C3A-9F1F-5C50D7D2441B}.Debug.Build.0 = Debug|.NET
+		{EF8E291B-E2E1-4C3A-9F1F-5C50D7D2441B}.Release.ActiveCfg = Release|.NET
+		{EF8E291B-E2E1-4C3A-9F1F-5C50D7D2441B}.Release.Build.0 = Release|.NET
+		{444B75A9-A2D1-4C5F-BF35-59F219FFD95A}.Debug.ActiveCfg = Debug|.NET
+		{444B75A9-A2D1-4C5F-BF35-59F219FFD95A}.Debug.Build.0 = Debug|.NET
+		{444B75A9-A2D1-4C5F-BF35-59F219FFD95A}.Release.ActiveCfg = Release|.NET
+		{444B75A9-A2D1-4C5F-BF35-59F219FFD95A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

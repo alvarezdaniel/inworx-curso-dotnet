@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form name="login" x="50" y="100" width="100" height="200">
+	<controls>
+		<control name="textbox1" x="12" y="20" text="" type="text" width="100" height="20" />
+		<control name="password1" x="12" y="40" text="" type="text" width="100" height="20" />
+		<control name="btnLogin" x="12" y="60" text="Login" type="button" width="30" height="20" />
+	</controls>
+</form>

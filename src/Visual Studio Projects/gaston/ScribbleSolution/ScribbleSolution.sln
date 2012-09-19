@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScribbleLib", "ScribbleLib\ScribbleLib.csproj", "{F888E4BD-BB1F-4EB1-958A-6F0BF096D6B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scribble", "Scribble\Scribble.csproj", "{B38E421D-C516-4565-8EBD-01C7B0C9D6A2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F888E4BD-BB1F-4EB1-958A-6F0BF096D6B3}.Debug.ActiveCfg = Debug|.NET
+		{F888E4BD-BB1F-4EB1-958A-6F0BF096D6B3}.Debug.Build.0 = Debug|.NET
+		{F888E4BD-BB1F-4EB1-958A-6F0BF096D6B3}.Release.ActiveCfg = Release|.NET
+		{F888E4BD-BB1F-4EB1-958A-6F0BF096D6B3}.Release.Build.0 = Release|.NET
+		{B38E421D-C516-4565-8EBD-01C7B0C9D6A2}.Debug.ActiveCfg = Debug|.NET
+		{B38E421D-C516-4565-8EBD-01C7B0C9D6A2}.Debug.Build.0 = Debug|.NET
+		{B38E421D-C516-4565-8EBD-01C7B0C9D6A2}.Release.ActiveCfg = Release|.NET
+		{B38E421D-C516-4565-8EBD-01C7B0C9D6A2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

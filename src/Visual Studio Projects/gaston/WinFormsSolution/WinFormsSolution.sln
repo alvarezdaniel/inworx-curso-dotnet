@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWinForm", "MyFirstWinForm\MyFirstWinForm.csproj", "{835810C9-4623-4071-98E7-CE9456F954C7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDIDrawing", "GDIDrawing\GDIDrawing.csproj", "{2B09C51C-395D-48F8-9307-54F4DDB5A5E2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaforoLib", "SemaforoLib\SemaforoLib.csproj", "{45CADA61-5FEE-44D3-825C-FD58E0D5DDF6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atributos", "Atributos\Atributos.csproj", "{D4A026F8-B274-4753-927D-A62417EF7D21}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorLib", "AuthorLib\AuthorLib.csproj", "{02A414B4-AB72-445F-B3DD-7D8A7120CD97}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{835810C9-4623-4071-98E7-CE9456F954C7}.Debug.ActiveCfg = Debug|.NET
+		{835810C9-4623-4071-98E7-CE9456F954C7}.Debug.Build.0 = Debug|.NET
+		{835810C9-4623-4071-98E7-CE9456F954C7}.Release.ActiveCfg = Release|.NET
+		{835810C9-4623-4071-98E7-CE9456F954C7}.Release.Build.0 = Release|.NET
+		{2B09C51C-395D-48F8-9307-54F4DDB5A5E2}.Debug.ActiveCfg = Debug|.NET
+		{2B09C51C-395D-48F8-9307-54F4DDB5A5E2}.Debug.Build.0 = Debug|.NET
+		{2B09C51C-395D-48F8-9307-54F4DDB5A5E2}.Release.ActiveCfg = Release|.NET
+		{2B09C51C-395D-48F8-9307-54F4DDB5A5E2}.Release.Build.0 = Release|.NET
+		{45CADA61-5FEE-44D3-825C-FD58E0D5DDF6}.Debug.ActiveCfg = Debug|.NET
+		{45CADA61-5FEE-44D3-825C-FD58E0D5DDF6}.Debug.Build.0 = Debug|.NET
+		{45CADA61-5FEE-44D3-825C-FD58E0D5DDF6}.Release.ActiveCfg = Release|.NET
+		{45CADA61-5FEE-44D3-825C-FD58E0D5DDF6}.Release.Build.0 = Release|.NET
+		{D4A026F8-B274-4753-927D-A62417EF7D21}.Debug.ActiveCfg = Debug|.NET
+		{D4A026F8-B274-4753-927D-A62417EF7D21}.Debug.Build.0 = Debug|.NET
+		{D4A026F8-B274-4753-927D-A62417EF7D21}.Release.ActiveCfg = Release|.NET
+		{D4A026F8-B274-4753-927D-A62417EF7D21}.Release.Build.0 = Release|.NET
+		{02A414B4-AB72-445F-B3DD-7D8A7120CD97}.Debug.ActiveCfg = Debug|.NET
+		{02A414B4-AB72-445F-B3DD-7D8A7120CD97}.Debug.Build.0 = Debug|.NET
+		{02A414B4-AB72-445F-B3DD-7D8A7120CD97}.Release.ActiveCfg = Release|.NET
+		{02A414B4-AB72-445F-B3DD-7D8A7120CD97}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

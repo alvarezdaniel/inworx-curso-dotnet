@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{189D9881-8466-44DC-94BD-126FFF73997F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{C0A7CFE1-86FC-43E3-B94A-A482110F21A6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "http://localhost/PresentationLayer/PresentationLayer.csproj", "{18A10151-3381-464E-BE48-4E6A53EF6FF5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{CBBE70FB-C86E-4B0C-AF0D-4F66D7BDA2C5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{189D9881-8466-44DC-94BD-126FFF73997F}.Debug.ActiveCfg = Debug|.NET
+		{189D9881-8466-44DC-94BD-126FFF73997F}.Debug.Build.0 = Debug|.NET
+		{189D9881-8466-44DC-94BD-126FFF73997F}.Release.ActiveCfg = Release|.NET
+		{189D9881-8466-44DC-94BD-126FFF73997F}.Release.Build.0 = Release|.NET
+		{C0A7CFE1-86FC-43E3-B94A-A482110F21A6}.Debug.ActiveCfg = Debug|.NET
+		{C0A7CFE1-86FC-43E3-B94A-A482110F21A6}.Debug.Build.0 = Debug|.NET
+		{C0A7CFE1-86FC-43E3-B94A-A482110F21A6}.Release.ActiveCfg = Release|.NET
+		{C0A7CFE1-86FC-43E3-B94A-A482110F21A6}.Release.Build.0 = Release|.NET
+		{18A10151-3381-464E-BE48-4E6A53EF6FF5}.Debug.ActiveCfg = Debug|.NET
+		{18A10151-3381-464E-BE48-4E6A53EF6FF5}.Debug.Build.0 = Debug|.NET
+		{18A10151-3381-464E-BE48-4E6A53EF6FF5}.Release.ActiveCfg = Release|.NET
+		{18A10151-3381-464E-BE48-4E6A53EF6FF5}.Release.Build.0 = Release|.NET
+		{CBBE70FB-C86E-4B0C-AF0D-4F66D7BDA2C5}.Debug.ActiveCfg = Debug|.NET
+		{CBBE70FB-C86E-4B0C-AF0D-4F66D7BDA2C5}.Debug.Build.0 = Debug|.NET
+		{CBBE70FB-C86E-4B0C-AF0D-4F66D7BDA2C5}.Release.ActiveCfg = Release|.NET
+		{CBBE70FB-C86E-4B0C-AF0D-4F66D7BDA2C5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Config.xml = Config.xml
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

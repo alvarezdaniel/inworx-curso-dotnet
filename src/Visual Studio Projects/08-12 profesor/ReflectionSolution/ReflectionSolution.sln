@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionWindowsApplication", "ReflectionWindowsApplication\ReflectionWindowsApplication.csproj", "{9E678ABF-D7E0-444D-8A24-E96D9ABD4908}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiWebApp", "http://localhost/MiWebApp/MiWebApp.csproj", "{F1A20888-65E6-4843-BC45-B1B5BE8F9801}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorLib", "AuthorLib\AuthorLib.csproj", "{7BBDC7DB-63ED-4106-976D-DB3F0C73E04D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterAuthorWindowsApplication", "TesterAuthorWindowsApplication\TesterAuthorWindowsApplication.csproj", "{EA082C29-A1AB-4247-B455-B40F446DB7B2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9E678ABF-D7E0-444D-8A24-E96D9ABD4908}.Debug.ActiveCfg = Debug|.NET
+		{9E678ABF-D7E0-444D-8A24-E96D9ABD4908}.Debug.Build.0 = Debug|.NET
+		{9E678ABF-D7E0-444D-8A24-E96D9ABD4908}.Release.ActiveCfg = Release|.NET
+		{9E678ABF-D7E0-444D-8A24-E96D9ABD4908}.Release.Build.0 = Release|.NET
+		{F1A20888-65E6-4843-BC45-B1B5BE8F9801}.Debug.ActiveCfg = Debug|.NET
+		{F1A20888-65E6-4843-BC45-B1B5BE8F9801}.Debug.Build.0 = Debug|.NET
+		{F1A20888-65E6-4843-BC45-B1B5BE8F9801}.Release.ActiveCfg = Release|.NET
+		{F1A20888-65E6-4843-BC45-B1B5BE8F9801}.Release.Build.0 = Release|.NET
+		{7BBDC7DB-63ED-4106-976D-DB3F0C73E04D}.Debug.ActiveCfg = Debug|.NET
+		{7BBDC7DB-63ED-4106-976D-DB3F0C73E04D}.Debug.Build.0 = Debug|.NET
+		{7BBDC7DB-63ED-4106-976D-DB3F0C73E04D}.Release.ActiveCfg = Release|.NET
+		{7BBDC7DB-63ED-4106-976D-DB3F0C73E04D}.Release.Build.0 = Release|.NET
+		{EA082C29-A1AB-4247-B455-B40F446DB7B2}.Debug.ActiveCfg = Debug|.NET
+		{EA082C29-A1AB-4247-B455-B40F446DB7B2}.Debug.Build.0 = Debug|.NET
+		{EA082C29-A1AB-4247-B455-B40F446DB7B2}.Release.ActiveCfg = Release|.NET
+		{EA082C29-A1AB-4247-B455-B40F446DB7B2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

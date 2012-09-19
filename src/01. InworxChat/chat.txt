@@ -1,0 +1,7 @@
+//chat//
+
+Servidor:
+Agregar usuarios
+Eco.
+Conectar un usuario y desconectarlo
+Mandar archivo

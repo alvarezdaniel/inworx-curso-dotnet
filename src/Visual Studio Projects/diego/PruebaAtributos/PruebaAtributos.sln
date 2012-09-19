@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorLib", "AuthorLib\AuthorLib.csproj", "{79E0AF4B-64DE-4A75-8E12-B31C983AF114}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAtributos", "DemoAtributos\DemoAtributos.csproj", "{E6775237-512B-4971-90D2-9E1DB611CC6C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterAtributoAutor", "TesterAtributoAutor\TesterAtributoAutor.csproj", "{342EBD46-BA89-4088-89FF-4E46092F8B7F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{79E0AF4B-64DE-4A75-8E12-B31C983AF114}.Debug.ActiveCfg = Debug|.NET
+		{79E0AF4B-64DE-4A75-8E12-B31C983AF114}.Debug.Build.0 = Debug|.NET
+		{79E0AF4B-64DE-4A75-8E12-B31C983AF114}.Release.ActiveCfg = Release|.NET
+		{79E0AF4B-64DE-4A75-8E12-B31C983AF114}.Release.Build.0 = Release|.NET
+		{E6775237-512B-4971-90D2-9E1DB611CC6C}.Debug.ActiveCfg = Debug|.NET
+		{E6775237-512B-4971-90D2-9E1DB611CC6C}.Debug.Build.0 = Debug|.NET
+		{E6775237-512B-4971-90D2-9E1DB611CC6C}.Release.ActiveCfg = Release|.NET
+		{E6775237-512B-4971-90D2-9E1DB611CC6C}.Release.Build.0 = Release|.NET
+		{342EBD46-BA89-4088-89FF-4E46092F8B7F}.Debug.ActiveCfg = Debug|.NET
+		{342EBD46-BA89-4088-89FF-4E46092F8B7F}.Debug.Build.0 = Debug|.NET
+		{342EBD46-BA89-4088-89FF-4E46092F8B7F}.Release.ActiveCfg = Release|.NET
+		{342EBD46-BA89-4088-89FF-4E46092F8B7F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

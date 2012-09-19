@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColaWindowsApplication", "ColaWindowsApplication\ColaWindowsApplication.csproj", "{F2B37D16-7E35-4794-A536-E77ED2F733C6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F2B37D16-7E35-4794-A536-E77ED2F733C6}.Debug.ActiveCfg = Debug|.NET
+		{F2B37D16-7E35-4794-A536-E77ED2F733C6}.Debug.Build.0 = Debug|.NET
+		{F2B37D16-7E35-4794-A536-E77ED2F733C6}.Release.ActiveCfg = Release|.NET
+		{F2B37D16-7E35-4794-A536-E77ED2F733C6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoresLibros", "http://localhost/AutoresLibros/AutoresLibros.csproj", "{87A278BF-CDA0-4E7E-93C7-C105EC951FD6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoresLibrosWindows", "AutoresLibrosWindows\AutoresLibrosWindows.csproj", "{BE6DC32E-32CF-4846-8DA4-DFE3B299521D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{87A278BF-CDA0-4E7E-93C7-C105EC951FD6}.Debug.ActiveCfg = Debug|.NET
+		{87A278BF-CDA0-4E7E-93C7-C105EC951FD6}.Debug.Build.0 = Debug|.NET
+		{87A278BF-CDA0-4E7E-93C7-C105EC951FD6}.Release.ActiveCfg = Release|.NET
+		{87A278BF-CDA0-4E7E-93C7-C105EC951FD6}.Release.Build.0 = Release|.NET
+		{BE6DC32E-32CF-4846-8DA4-DFE3B299521D}.Debug.ActiveCfg = Debug|.NET
+		{BE6DC32E-32CF-4846-8DA4-DFE3B299521D}.Debug.Build.0 = Debug|.NET
+		{BE6DC32E-32CF-4846-8DA4-DFE3B299521D}.Release.ActiveCfg = Release|.NET
+		{BE6DC32E-32CF-4846-8DA4-DFE3B299521D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

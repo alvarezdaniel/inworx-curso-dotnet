@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<forms>
+	<form name="login">
+		<control name="NombreLabel" type="label" text="Nombre" />
+		<control name="PasswordLabel" type="label" text="Password" />
+		<control name="NombreTextBox" type="text" text="" />
+		<control name="PasswordTextBox" type="text" text="" />
+		<control name="OKButton" type="button" text="OK" />
+		<control name="CancelButton" type="button" text="Cancel" />
+	</form>
+	<form name="nuevoCliente">
+		<control name="NombreLabel" type="label" text="Nombre" />
+		<control name="PasswordLabel" type="label" text="Password" />
+		<control name="NombreTextBox" type="text" text="" />
+		<control name="PasswordTextBox" type="text" text="" />
+		<control name="OKButton" type="button" text="OK" />
+		<control name="CancelButton" type="button" text="Cancel" />
+	</form>
+</forms>

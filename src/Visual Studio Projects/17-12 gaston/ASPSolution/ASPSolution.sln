@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPTest", "http://localhost/ASPTest/ASPTest.csproj", "{DEF4889A-8765-41EE-9169-0E7C6E68B70E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InworxControlsLib", "InworxControlsLib\InworxControlsLib.csproj", "{1C179322-F4B3-47CF-9975-91A490CAA352}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DEF4889A-8765-41EE-9169-0E7C6E68B70E}.Debug.ActiveCfg = Debug|.NET
+		{DEF4889A-8765-41EE-9169-0E7C6E68B70E}.Debug.Build.0 = Debug|.NET
+		{DEF4889A-8765-41EE-9169-0E7C6E68B70E}.Release.ActiveCfg = Release|.NET
+		{DEF4889A-8765-41EE-9169-0E7C6E68B70E}.Release.Build.0 = Release|.NET
+		{1C179322-F4B3-47CF-9975-91A490CAA352}.Debug.ActiveCfg = Debug|.NET
+		{1C179322-F4B3-47CF-9975-91A490CAA352}.Debug.Build.0 = Debug|.NET
+		{1C179322-F4B3-47CF-9975-91A490CAA352}.Release.ActiveCfg = Release|.NET
+		{1C179322-F4B3-47CF-9975-91A490CAA352}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

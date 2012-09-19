@@ -1,0 +1,20 @@
+<xsd:schema id="TransactionDataSet" targetNamespace="http://www.tempuri.org/TransactionDataSet.xsd" xmlns="http://www.tempuri.org/TransactionDataSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xsd:element name="TransactionDataSet" msdata:IsDataSet="true">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="_GetTransactionLog">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="TransactionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+              <xsd:element name="TransactionDate" type="xsd:dateTime" />
+              <xsd:element name="AccountID" type="xsd:int" />
+              <xsd:element name="Amount" type="xsd:decimal" />
+              <xsd:element name="Description" type="xsd:string" />
+              <xsd:element name="Type" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.ReadDataSet", "AdoNetTest.ReadDataSet\AdoNetTest.ReadDataSet.csproj", "{A9012A17-89BB-4312-B4F5-E8ED1121141B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.ExecuteSTP", "AdoNetTest.ExecuteSTP\AdoNetTest.ExecuteSTP.csproj", "{58776D0F-D79F-44B1-A2CA-099267B05A83}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.DataBinding", "AdoNetTest.DataBinding\AdoNetTest.DataBinding.csproj", "{45E351DA-0375-4A38-B5B5-36E7B2672399}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.Views", "AdoNetTest.Views\AdoNetTest.Views.csproj", "{A22317BF-4BC8-49C8-8FBE-18173C6BAFD3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.Web.MasterDetail", "http://localhost/AdoNetTest.Web.MasterDetail/AdoNetTest.Web.MasterDetail.csproj", "{9841D3BC-825E-4260-9839-AAC1BCCBB43F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.WinForms.MasterDetail", "AdoNetTest.WinForms.MasterDetail\AdoNetTest.WinForms.MasterDetail.csproj", "{BC9AFB93-666C-4B3C-8132-2323CD9F7789}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetTest.WinForm.DataUpdate", "AdoNetTest.WinForm.DataUpdate\AdoNetTest.WinForm.DataUpdate.csproj", "{B3F8B0B4-8876-4AC1-AC4F-66BC7CFDD489}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A9012A17-89BB-4312-B4F5-E8ED1121141B}.Debug.ActiveCfg = Debug|.NET
+		{A9012A17-89BB-4312-B4F5-E8ED1121141B}.Debug.Build.0 = Debug|.NET
+		{A9012A17-89BB-4312-B4F5-E8ED1121141B}.Release.ActiveCfg = Release|.NET
+		{A9012A17-89BB-4312-B4F5-E8ED1121141B}.Release.Build.0 = Release|.NET
+		{58776D0F-D79F-44B1-A2CA-099267B05A83}.Debug.ActiveCfg = Debug|.NET
+		{58776D0F-D79F-44B1-A2CA-099267B05A83}.Debug.Build.0 = Debug|.NET
+		{58776D0F-D79F-44B1-A2CA-099267B05A83}.Release.ActiveCfg = Release|.NET
+		{58776D0F-D79F-44B1-A2CA-099267B05A83}.Release.Build.0 = Release|.NET
+		{45E351DA-0375-4A38-B5B5-36E7B2672399}.Debug.ActiveCfg = Debug|.NET
+		{45E351DA-0375-4A38-B5B5-36E7B2672399}.Debug.Build.0 = Debug|.NET
+		{45E351DA-0375-4A38-B5B5-36E7B2672399}.Release.ActiveCfg = Release|.NET
+		{45E351DA-0375-4A38-B5B5-36E7B2672399}.Release.Build.0 = Release|.NET
+		{A22317BF-4BC8-49C8-8FBE-18173C6BAFD3}.Debug.ActiveCfg = Debug|.NET
+		{A22317BF-4BC8-49C8-8FBE-18173C6BAFD3}.Debug.Build.0 = Debug|.NET
+		{A22317BF-4BC8-49C8-8FBE-18173C6BAFD3}.Release.ActiveCfg = Release|.NET
+		{A22317BF-4BC8-49C8-8FBE-18173C6BAFD3}.Release.Build.0 = Release|.NET
+		{9841D3BC-825E-4260-9839-AAC1BCCBB43F}.Debug.ActiveCfg = Debug|.NET
+		{9841D3BC-825E-4260-9839-AAC1BCCBB43F}.Debug.Build.0 = Debug|.NET
+		{9841D3BC-825E-4260-9839-AAC1BCCBB43F}.Release.ActiveCfg = Release|.NET
+		{9841D3BC-825E-4260-9839-AAC1BCCBB43F}.Release.Build.0 = Release|.NET
+		{BC9AFB93-666C-4B3C-8132-2323CD9F7789}.Debug.ActiveCfg = Debug|.NET
+		{BC9AFB93-666C-4B3C-8132-2323CD9F7789}.Debug.Build.0 = Debug|.NET
+		{BC9AFB93-666C-4B3C-8132-2323CD9F7789}.Release.ActiveCfg = Release|.NET
+		{BC9AFB93-666C-4B3C-8132-2323CD9F7789}.Release.Build.0 = Release|.NET
+		{B3F8B0B4-8876-4AC1-AC4F-66BC7CFDD489}.Debug.ActiveCfg = Debug|.NET
+		{B3F8B0B4-8876-4AC1-AC4F-66BC7CFDD489}.Debug.Build.0 = Debug|.NET
+		{B3F8B0B4-8876-4AC1-AC4F-66BC7CFDD489}.Release.ActiveCfg = Release|.NET
+		{B3F8B0B4-8876-4AC1-AC4F-66BC7CFDD489}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColaWinApp", "ColaWinApp\ColaWinApp.csproj", "{10110DE8-1267-4D39-9C91-C3665270260A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploSync", "EjemploSync\EjemploSync.csproj", "{C5057D65-C26C-4749-96C7-E9C7EAA39860}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{10110DE8-1267-4D39-9C91-C3665270260A}.Debug.ActiveCfg = Debug|.NET
+		{10110DE8-1267-4D39-9C91-C3665270260A}.Debug.Build.0 = Debug|.NET
+		{10110DE8-1267-4D39-9C91-C3665270260A}.Release.ActiveCfg = Release|.NET
+		{10110DE8-1267-4D39-9C91-C3665270260A}.Release.Build.0 = Release|.NET
+		{C5057D65-C26C-4749-96C7-E9C7EAA39860}.Debug.ActiveCfg = Debug|.NET
+		{C5057D65-C26C-4749-96C7-E9C7EAA39860}.Debug.Build.0 = Debug|.NET
+		{C5057D65-C26C-4749-96C7-E9C7EAA39860}.Release.ActiveCfg = Release|.NET
+		{C5057D65-C26C-4749-96C7-E9C7EAA39860}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
